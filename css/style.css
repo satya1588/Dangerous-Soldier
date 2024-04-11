@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'GameFont';
+  src: url(../assets/fonts/game-font.ttf);
+}
+
+body {
+  background-color: #313639;
+}
+
+#game-container {
+  position: absolute;
+  width: 640px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: 'GameFont';
+}
+
+.end-canvas {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
